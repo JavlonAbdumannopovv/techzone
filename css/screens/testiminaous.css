@@ -1,0 +1,113 @@
+#testimonials {
+    background-color: var(--secondary-bg-color);
+}
+
+.testimonials__content {
+    padding: 48px 0;
+}
+
+.testimonials__title__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.testimonials__subtitle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: var(--secondary-color);
+}
+
+.testimonials__subtitle::before {
+    content: "";
+    flex-shrink: 0;
+    width: 12px;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+.testimonials__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--section-title-color);
+}
+
+.testimonials__view {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.testimonials__view:hover {
+    color: var(--secondary-hover-color);
+}
+
+.testimonials__list {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.testimonials__card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 18px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: #0d131f;
+}
+
+.testimonials__card__top {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.testimonials__card__avatar {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2a3550;
+    color: #dbe4f3;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.testimonials__card__text {
+    color: var(--section-desc-color);
+    font-size: 9px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonials__card__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+}
+
+.testimonials__card__name {
+    color: var(--section-title-color);
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.testimonials__card__stars {
+    display: flex;
+    gap: 2px;
+    color: #fbbf24;
+    font-size: 8px;
+}

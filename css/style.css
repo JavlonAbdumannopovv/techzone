@@ -1,0 +1,14 @@
+@import url("./base/base.css");
+@import url("./base/variables.css");
+
+@import url("./Layout/header.css");
+@import url("./Layout/footer.css");
+
+@import url("./screens/hero.css");
+@import url("./screens/catagories.css");
+@import url("./screens/cta.css");
+@import url("./screens/fetyres.css");
+@import url("./screens/testiminaous.css");
+@import url("./screens/how.css");
+@import url("./screens/offer.css");
+

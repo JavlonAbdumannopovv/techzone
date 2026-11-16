@@ -1,0 +1,168 @@
+#footer {
+    padding: 56px 0 0;
+    border-top: 1px solid #1a2130;
+    background-color: #070b12;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer__logo__wrap {
+    width: 220px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer__logo img {
+    width: 100px;
+}
+
+.footer__logo__desc {
+    color: #9ca3af;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer__logo__social {
+    display: flex;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.footer__logo__icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #161d2c;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.footer__logo__icon:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.footer__nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer__nav__col {
+    width: 150px;
+}
+
+.footer__nav__title {
+    margin-bottom: 18px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+}
+
+.footer__nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__nav__link {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer__nav__link:hover {
+    color: var(--secondary-color);
+}
+
+.footer__download {
+    width: 220px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__download__title {
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+}
+
+.footer__download__desc {
+    margin-bottom: 16px;
+    color: #9ca3af;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.footer__download__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    margin-bottom: 10px;
+    padding: 8px 14px;
+    border: 1px solid #2a3244;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer__download__link:hover {
+    border-color: var(--secondary-color);
+}
+
+.footer__download__link i {
+    font-size: 18px;
+}
+
+.footer__download__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer__download__label {
+    font-size: 7px;
+    font-weight: 500;
+}
+
+.footer__download__name {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 24px 0;
+    border-top: 1px solid #1a2130;
+}
+
+.footer__bottom__text {
+    color: #6b7280;
+    font-size: 10px;
+}
+
+.footer__bottom__lang {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #9ca3af;
+    font-size: 10px;
+}

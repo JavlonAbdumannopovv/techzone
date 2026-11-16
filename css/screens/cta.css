@@ -1,0 +1,114 @@
+.cta__content {
+    padding: 64px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cta__info {
+    width: 592px;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.cta__info__img {
+    border-radius: 50%;
+    height: 172px;
+    width: 172px;
+}
+
+.cta__info__right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cta__info__subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--secondary-color);
+}
+
+.cta__info__title {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    width: 400px;
+}
+
+.cta__info__desc {
+    color: #94A3B8;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    width: 480px;
+}
+
+.cta__form {
+    padding: 0;
+    margin: 0;
+}
+
+.cta__form form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
+
+.input__field input,
+.input__field select {
+    width: 285px;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-bg-color);
+    color: var(--white-color);
+    padding: 13px;
+    border-radius: 16px;
+    appearance: none;
+}
+
+.input__field input::placeholder {
+    color: var(--section-desc-color);
+}
+
+.cta__bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__check {
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.cta__checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.cta__check__text {
+    color: #94A3B8;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.cta__btn {
+    padding: 14px 32px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cta__btn:hover {
+    background-color: var(--secondary-hover-color);
+}
